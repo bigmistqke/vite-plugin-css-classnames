@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-css-classnames",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
@@ -14,7 +14,8 @@
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prepublishOnly": "pnpm build"
   },
   "dependencies": {
     "postcss-selector-parser": "^6.1.2"
